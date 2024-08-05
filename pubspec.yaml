@@ -1,5 +1,5 @@
 name: simple_sizedbox
-description: "A new Flutter package project."
+description: A Flutter package that provides convenient extensions for creating SizedBoxes with height and width using numerical values.
 version: 0.0.1
 homepage: https://github.com/muhammaddevuz/simple_sizedbox
 repository: https://github.com/muhammaddevuz/simple_sizedbox
