@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:simple_sizedbox/simple_sizedbox.dart';
+import 'package:simple_sizedbox/src/simple_sizedbox.dart';
 
 void main() {
   test('height extension creates SizedBox with correct height', () {

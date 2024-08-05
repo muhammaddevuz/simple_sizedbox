@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simple_sizedbox/simple_sizedbox.dart';
+import 'package:simple_sizedbox/src/simple_sizedbox.dart';
 
 void main() {
   runApp(MaterialApp(
