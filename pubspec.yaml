@@ -6,7 +6,7 @@ repository: https://github.com/muhammaddevuz/simple_sizedbox
 issue_tracker: https://github.com/muhammaddevuz/simple_sizedbox
 
 environment:
-  sdk: '>=3.4.4 <4.0.0'
+  sdk: '>=3.4.3 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
@@ -16,13 +16,21 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^4.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.simple_sizedbox
+        pluginClass: SimpleSizedBoxPlugin
+      ios:
+        pluginClass: SimpleSizedBoxPlugin
+
 
   # To add assets to your package, add an assets section, like this:
   # assets:
