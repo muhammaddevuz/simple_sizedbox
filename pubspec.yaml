@@ -1,7 +1,9 @@
 name: simple_sizedbox
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/muhammaddevuz/simple_sizedbox
+repository: https://github.com/muhammaddevuz/simple_sizedbox
+issue_tracker: https://github.com/muhammaddevuz/simple_sizedbox
 
 environment:
   sdk: '>=3.4.4 <4.0.0'
